@@ -1,0 +1,108 @@
+{
+  "players": [
+    {
+      "id": "p1",
+      "name": "Adam"
+    },
+    {
+      "id": "p2",
+      "name": "Ethan"
+    },
+    {
+      "id": "p3",
+      "name": "Josh"
+    },
+    {
+      "id": "p4",
+      "name": "Harry"
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "fixture_p1_vs_p2",
+      "player1": {
+        "id": "p1",
+        "name": "Adam"
+      },
+      "player2": {
+        "id": "p2",
+        "name": "Ethan"
+      },
+      "score1": 6,
+      "score2": 5,
+      "played": true
+    },
+    {
+      "id": "fixture_p1_vs_p3",
+      "player1": {
+        "id": "p1",
+        "name": "Adam"
+      },
+      "player2": {
+        "id": "p3",
+        "name": "Josh"
+      },
+      "score1": 7,
+      "score2": 6,
+      "played": true
+    },
+    {
+      "id": "fixture_p1_vs_p4",
+      "player1": {
+        "id": "p1",
+        "name": "Adam"
+      },
+      "player2": {
+        "id": "p4",
+        "name": "Harry"
+      },
+      "score1": 3,
+      "score2": 6,
+      "played": true
+    },
+    {
+      "id": "fixture_p2_vs_p3",
+      "player1": {
+        "id": "p2",
+        "name": "Ethan"
+      },
+      "player2": {
+        "id": "p3",
+        "name": "Josh"
+      },
+      "score1": null,
+      "score2": null,
+      "played": false
+    },
+    {
+      "id": "fixture_p2_vs_p4",
+      "player1": {
+        "id": "p2",
+        "name": "Ethan"
+      },
+      "player2": {
+        "id": "p4",
+        "name": "Harry"
+      },
+      "score1": null,
+      "score2": null,
+      "played": false
+    },
+    {
+      "id": "fixture_p3_vs_p4",
+      "player1": {
+        "id": "p3",
+        "name": "Josh"
+      },
+      "player2": {
+        "id": "p4",
+        "name": "Harry"
+      },
+      "score1": null,
+      "score2": null,
+      "played": false
+    }
+  ],
+  "leagueFormat": "single",
+  "sport": "Padel"
+}
